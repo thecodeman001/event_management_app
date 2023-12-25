@@ -12,6 +12,12 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 gem "bootsnap", require: false
 
+gem "rack-cors"
+
+gem 'devise'
+gem 'devise-jwt'
+gem 'jsonapi-serializer'
+
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem 'rspec-rails', '~> 4.0.1'
